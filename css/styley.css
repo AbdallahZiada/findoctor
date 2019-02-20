@@ -1,0 +1,688 @@
+body
+{
+    background-color: ;
+    font-weight: 500;
+    color:#fff;
+        font-family: 'Open Sans',sans-serif;
+}
+.selector-for-some-widget 
+{
+  box-sizing: content-box;
+}
+.bg-light {
+    background-color: rgba(248, 249, 250, 0.24)!important;
+}
+.table
+{
+    height: 800px;
+    margin-top: 56px;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 0px solid #4e99e3;
+}
+.container {
+    width: 600px;
+    margin: auto;
+}
+.slidex
+{
+    width: 600px;
+    font-size: 54px;
+    line-height: 54px;
+    font-family: 'Cera',sans-serif!important;
+    font-weight: 700;
+    vertical-align: baseline;
+    margin: 100px;
+}
+.stable
+{
+    margin-top: 100px;
+}
+.test 
+{
+    /* background: url(../imgs/bg.png); */
+    background-size: cover;
+    height: 800px;
+    position: relative;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #31388d 0%, #753fa9 33.333%, #ff0762 66%, #f25632 100%);
+    z-index: 3;
+}
+
+.test h2 
+{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.test q 
+{
+    font-size: 20px;
+    color: #d0d0d0;
+    font-weight: normal;
+    line-height: 1.5;
+    display: block;
+    margin-top: 67px;
+}
+
+.test p 
+{
+    font-size: 25px;
+    color: #1abc9c;
+    font-weight: normal;
+}
+
+.test .t-overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0, 0, 0,0);
+}
+.test .slideyy{
+   /* display: none; */
+    opacity: 0;
+    top: 0px;
+    /*top: 210px;*/
+    transition: all .7s ease-in-out;
+    position: absolute;
+    right: 50px;
+    
+}
+.test .slidex1 , .test .slidex2 , .test .slidex3 ,.test .slidex4, .test .slidex5 {
+    display: none;
+    opacity: 0;
+}
+.tdheader1 , .tdheader2
+{
+    width: 47.7%;
+}
+.tdheader3
+{
+    height: 400px;
+}
+.tdheader33
+{
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+.navbar 
+{
+    padding-left : 130px;
+    padding-right: 150px;
+    position: fixed;
+    z-index: 253465767809;
+    width:100%;
+}
+.navbar-light .navbar-nav .nav-link 
+{
+    margin-left: 50px
+}
+.sign-in
+{
+    background-color: rgba(255,255,255,.25); /*#98c15a*/
+    border-radius: 20px
+}
+.carousel-inner
+{
+    overflow: visible;
+}
+.carousel-indicators li
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 6px;
+}
+.carousel-indicators
+{
+    position: relative;
+    display: block;
+}
+ #map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+.slid-img
+{
+    max-height: 300px;
+    min-height: 300px;
+    min-width : 300px;
+    max-width : 300px;
+}
+.yy
+{
+    animation: y 5s infinite ease-in-out;
+    animation-duration: 4.1s;
+}
+.y
+{ 
+    animation: y 5s ease-in-out;
+    animation-duration: 5.2s;
+}
+@keyframes y {
+    0%
+    {   
+        top: 0px;
+        opacity: 0;
+    }
+    25%
+    {
+        top: 85px;
+        opacity: 1;
+    }
+    50%
+    {
+        top: 85px;
+        opacity: 1;
+    }
+    75%
+    {
+        top: 85px;
+        opacity: 1;
+    }
+    100%
+    {
+        top: 210px;
+        opacity: 0;
+    }
+}*/
+.slide-y-up /* to make the images in the slider move up*/
+{
+    display: block;
+    margin-top: -150px;
+    
+}
+.slide-y-down /*to make the images in the slider move down*/
+{
+    display: block;
+    margin-top: -150px;
+    opacity: 0;
+}
+
+/* here we have finshed the carousal */
+
+/* let's begin our next section whcich will display the opt */
+
+/* here the styling of our main options */
+.whoru
+{
+    background-color: rgba(0,0,0,0.08);
+    width: 100%;
+    height: 650px;
+    overflow: visible;
+}
+
+.listoptions
+{
+    position: absolute;
+    list-style-type: none;
+    
+}
+.outer {
+    
+    position: absolute;
+    /* unnecessary styling properties */
+    width: 100%;
+    height: 200px;
+}
+
+.options
+{
+    color: white;
+    width : 170px;
+    height: 170px;
+    border-radius: 50%;
+    z-index: 10;
+    top: 140%;
+    /*background-image: -webkit-radial-gradient(center center, rgba(131, 58, 165, 0.6) 10px, rgba(131, 58, 165, 0) 70%), -webkit-radial-gradient(center center, rgba(230, 13, 116, 0.6) 8px, rgba(230, 13, 116, 0) 40%); */
+    /* background-color: rgb(188, 16, 85); */
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(circle, white, #ccc, #afaeae); /* Safari */
+    background: -o-radial-gradient(circle, white, #ccc, #afaeae); /* Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, white, #ccc, #afaeae); /* Firefox 3.6 to 15 */
+    background: radial-gradient(circle, white, #ccc, #afaeae); /* Standard syntax */
+
+}
+.inner1 
+{
+    position:absolute;
+    left: 30%;
+    transform: translate(-50%, -50%);
+        background-color:#3b93f7;
+    /* unnecessary styling properties */
+    max-width: 50%;
+    text-align: center;
+    background: radial-gradient(circle, rgb(170, 133, 246),  rgb(98, 66, 162), #252e70);
+
+}
+.inner2 
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#e3674e;
+    /* unnecessary styling properties */
+    max-width: 50%;
+    text-align: center;
+    background: radial-gradient(circle, rgb(187, 128, 207), rgb(124, 67, 143),rgb(105, 29, 129) );
+}
+.inner3 {
+    position: absolute;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color:#65d656;
+    /* unnecessary styling properties */
+    max-width: 50%;
+    text-align: center;
+    background: radial-gradient(circle, rgb(240, 170, 200),  rgb(235, 15, 109), #b23135);
+}
+.disc
+{
+    position: absolute;
+    left:50%;
+    top: 160%;
+    transform: translate(-50%, -50%);
+    color: #666;
+    /* unnecessary styling properties */
+    text-align: center;
+}
+.title
+{
+    max-width: 200%;
+}
+.dis
+{
+    left:37px;
+    width: 200px;
+}
+.suppbrands
+{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    top: 840px;
+    margin-left: 10%; 
+    height: 100px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    color: rgba(33, 37, 41, 0.32);
+    color: white;
+    transform-origin: center center; 
+    transition: all 0.5s ease-in-out 0s;
+    background-color: rgb(234, 73, 144);
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.sup1
+{
+    z-index: 1;
+    font-size: 30PX;
+}
+.sup2
+{
+    transform-origin: center center;
+    transition: all 0.5s ease-in-out 0s;
+    transform: rotate3d(1,0,0,180deg);
+    
+}
+.sup11
+{
+    transform: rotate3d(1,0,0,180deg);
+    opacity: 0;
+}
+.sup22
+{
+    transform: rotate3d(1,0,0,0deg);
+}
+.productlogo
+{
+    margin-top: 21%;
+}
+.fa-user-md
+{
+    font-size: 100px;
+}
+.productbutton
+{
+    margin-top: 10%;
+}
+.btn-danger 
+{
+    color: #fff;
+    background-image: linear-gradient(to bottom right, rgb(105, 29, 129) 0%, #753fa9 33.333%, #ea4990 66%, #ea4990 100%);
+    border-color: #ea4990;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*here we are styling the div of the vedio*/
+.viddisc
+{
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    margin-top: -25px;
+    padding-top: 25px;
+    
+    list-style-type: none;
+}   
+.discr
+{
+    
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.videodisc
+{
+    
+    padding: 10px;
+}
+.vdisc
+{
+    padding: 100px 100px;
+}
+.vid-title
+{
+    background: -webkit-linear-gradient( #31388d, #f25632);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+.vidimg
+{
+    border-radius: 8px;
+    max-height:100%;
+    max-width :100%;
+    min-width :100%;
+    min-height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* here the styling of the iframe tag which leads to the registeration form*/
+.reg 
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: url(../imgs/Wallpapers-For-Computer-Screens-001.jpg) no-repeat center center fixed;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(255,255,255,.3);
+}
+.ops
+{
+    margin: 2px auto;
+    line-height: 1.4;
+    padding-left: 0;
+}
+.li3
+{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #666;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px #666;
+    margin-left: 10px;
+} 
+.iframe
+{
+    width: 35%;
+    height: 900px;
+    border: none;
+    margin-top: 20px;
+  margin-bottom: 30px;
+
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* here the styling of the rating form*/
+.ratingdiv
+{
+    width: 100%;
+    height: 300px;
+    background: #ebebeb;
+    text-align: center;
+    padding: 20px 2px;
+    color: black;
+}
+
+fieldset, label { margin: 0; padding: 0; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+    border: none;
+    /* padding-right:38%; */
+    width: 24.4%;
+    border-radius: 55px;
+    margin-left: 38%;
+}
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 420%;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #995fad;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #995fad;  } 
+
+.submit
+{
+    width: 20%;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    opacity: 1;
+    color: #fff;
+    background-image: linear-gradient(to bottom right, rgb(105, 29, 129) 0%, #753fa9 33.333%, #ea4990 66%, #ea4990 100%);
+    border-color: #ea4990;
+}
+.productbutton
+{
+    border: none;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer
+{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    padding-left :10%;
+    padding-right:10%;
+    text-size-adjust: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 100%;
+    min-width: 100%;
+}
+.footcontent
+{
+    margin: auto;
+    float: left;
+    list-style: none;
+    color: black;
+    line-height: 200%;
+    margin: 0px 50px;
+}
+b
+{
+    letter-spacing: 1.5px;
+    color: #a4a9a8
+}
+.the-end
+{
+    width: 100%;
+    height: 10px;
+    color: #444;
+}
+.fa-copyright
+{
+    color: black;
+    font-size: 20px;
+}
+.copyr ,.end
+{
+    font-size: 13px;
+    font-weight: normal;
+}
+.the-end
+{
+    color: #999;
+    width: 100%;
+    display: inline;
+    float: left;    
+    padding-left :16%;
+    padding-right:16%;
+    margin-bottom: 50px;
+    word-spacing: 16px;
+}
+.copyr
+{
+    word-spacing: normal;
+}
+.social
+{
+    display: inline-block;
+    float: right;
+}
+.sociallogo
+{
+    background: -webkit-linear-gradient( #31388d, #f25632);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.heyrate
+{
+    font-size:20px;
+}
+
+
+
+font-family:
+/* 1 */ -apple-system, BlinkMacSystemFont,
+/* 2 */ "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+/* 3 */ "Helvetica Neue", sans-serif;
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+@include media-breakpoint-up(xs) { ... }
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+//*Example usage:*/
+@include media-breakpoint-up(sm) {
+  body{
+    display: block;
+  }
+}
